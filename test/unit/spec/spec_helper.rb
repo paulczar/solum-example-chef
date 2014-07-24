@@ -15,7 +15,7 @@ require 'chef/application'
 }
 
 def stub_resources
-  stub_command("which nginx").and_return(...)
+  stub_command("which nginx").and_return('/usr/bin/nginx')
 end
 
 at_exit { ChefSpec::Coverage.report! }
