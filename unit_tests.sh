@@ -1,4 +1,4 @@
-  #!/bin/sh
+  #!/bin/bash
 
   export USE_SYSTEM_GECODE=1
   bundle install
