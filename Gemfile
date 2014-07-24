@@ -8,7 +8,7 @@ gem 'berkshelf', '> 3'
 #
 # group :development do
 # gem "berkshelf", github: "berkshelf/berkshelf"
-# gem "vagrant", github: "mitchellh/vagrant", tag: "v1.5.2"
+gem "vagrant", github: "mitchellh/vagrant", tag: "v1.5.2"
 # end
 #
 # group :plugins do
