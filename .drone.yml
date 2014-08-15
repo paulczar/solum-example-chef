@@ -1,6 +1,5 @@
-image: paulczar/meez
+image: paulczar/solum-lp-chef
 env:
-  - CI=drone
   - USE_SYSTEM_GECODE=1
 script:
   - bundle install
